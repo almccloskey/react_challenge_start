@@ -32,7 +32,7 @@ function App() {
 
    const addAppt = (title, contact, date, time) => {
      setAppointments([
-         ...prev, 
+         ...appointments, 
          {
            title,
            contact,
