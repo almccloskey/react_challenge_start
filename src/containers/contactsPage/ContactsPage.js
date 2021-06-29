@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import ContactForm from '../../components/contactForm/ContactForm';
-import TileList from '../../components/tileList/TileList';
+import {ContactForm} from '../../components/contactForm/ContactForm';
+import {TileList} from '../../components/tileList/TileList';
 
 export const ContactsPage = ({ contacts, addContact }) => {
  
@@ -47,7 +47,7 @@ export const ContactsPage = ({ contacts, addContact }) => {
       <section>
         <h2>Contacts</h2>
         <TileList 
-          contacts={contacts}
+          tiles={contacts}
         />
       </section>
     </div>
